@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mintablelabs",
+    "web3",
+    "login",
+    "firebase",
+    "node",
+    "metamask"
+  ],
+  "author": "mintablelabs",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/eth-sig-util": "^5.0.2",
+    "cors": "^2.8.5",
+    "eth-sig-util": "^3.0.1",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "nodemon": "^2.0.20",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0",
+    "ts-node": "^10.9.1",
+    "web3": "^1.7.1"
+  }
+}
